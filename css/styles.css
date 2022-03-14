@@ -32,11 +32,12 @@ input, textarea {
     background-color: #4d5a6e;
 }
 a {
-    color: inherit;
+    font-weight: bold;
+    color: #003c3f;
     text-decoration: none;
 }
 a:hover {
-    color: white;
+    color: #007b81;
     text-decoration: none;
 }
 li{
