@@ -90,3 +90,12 @@ li{
     font-weight: bold;
     font-style: italic;
 }
+.footer-content{
+    font-weight: lighter;
+    font-size:smaller;
+    color: #fffefc;
+}
+.footer-link{
+    font-weight: lighter;
+    color: #fffefc;
+}
