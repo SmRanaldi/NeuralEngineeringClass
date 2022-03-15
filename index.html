@@ -12,17 +12,31 @@
     <title>Neural Engineering 2022 @ Roma Tre</title>
 </head>
 <body>
-    
-    <div class="top-container">
-        <h1>Neural Engineering 2022</h1>
-    </div>
+   
+    <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark bg-opacity-65">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Neural Engineering 2022</a>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#program">Schedule</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#references">References</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#links">Links</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
 
-    <hr>
+    <!-- <hr> -->
 
     <div class="title-container">
-        <h2>Lecture program</h2>
+        <h2 id="program">Lecture program</h2>
     </div>
-
     <div class="content-container">
         <ul class="list-group list-group-flush">
 
@@ -72,9 +86,8 @@
     <hr>
 
     <div class="title-container">
-        <h2>References</h2>
+        <h2 id="references">References</h2>
     </div>
-
     <div class="content-container">
         <ul class="list-group list-group-flush">
             <li class="list-group-item">
@@ -91,6 +104,52 @@
             </li>
         </ul>
     </div>
+
+    <hr>
+
+    <div class="title-container">
+        <h2 id="links">Additional links</h2>
+    </div>
+    <div class="content-container">
+        <ul class="list-group list-group-flush">
+            <li class="list-group-item">
+                Useful Python code examples
+                <ul>
+                    <li>
+                        A gallery of samples Jupyter Notebooks from the official Jupyter Github repository (<a href="https://github.com/jupyter/jupyter/wiki">github link</a>)
+                    </li>
+                    <li>
+                        Python Data Science Handbook through notebooks (<a href="https://github.com/jakevdp/PythonDataScienceHandbook">github link</a>)
+                    </li>
+                    <li>
+                        Python for Signal Processing (<a href="https://github.com/unpingco/Python-for-Signal-Processing">github link</a>)
+                    </li>
+                    <li>
+                        <a href="https://github.com/brian-team/brian2">Brian</a>: a Python simulator for spiking neural networks.
+                    </li>
+                </ul>
+            </li>
+            <li class="list-group-item">
+                Guides to markdown, the markup language used in the text cells in Python notebooks
+                <ul>
+                    <li>
+                        <a href="https://www.markdownguide.org/">The Markdown open source guide</a>
+                    </li>
+                    <li>
+                        <a href="https://www.markdownguide.org/cheat-sheet/">Markdown cheatsheet</a>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+
+    <hr>
+
+    <footer class="row text-center bg-dark">
+        <div>
+            &copy; 2022
+        </div>
+    </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
