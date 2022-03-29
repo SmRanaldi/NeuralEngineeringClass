@@ -1,0 +1,42 @@
+\usepackage[backend=biber,style=alphabetic,sorting=nty,maxalphanames=1]{biblatex}
+\renewcommand*{\labelalphaothers}{}
+\addbibresource{biblio.bib}
+\DeclareNolabel{ % For ignoring spaces in citations
+  \nolabel{\regexp{[\p{Z}\p{P}\p{S}\p{C}]+}}
+}
+\usepackage[english]{babel}
+\usepackage{indentfirst} % For indenting the first paragraph
+\usepackage{graphicx}
+\usepackage{url}
+\usepackage{csquotes}
+\usepackage{amssymb}
+\usepackage{pdfpages}
+%\usepackage{bibentry}
+%\usepackage{hyperref}
+
+\usepackage[includeheadfoot, margin=1in]{geometry} % For margins, probably buggy
+\usepackage[width = 0.75\textwidth, font = small]{caption} % For caption margins
+
+% New style here ------
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\scshape\nouppercase{\leftmark}} 
+\fancyhead[R]{\scshape\thepage}
+
+
+% -------------------
+
+\setcounter{tocdepth}{1} % Set table of content level
+
+\usepackage{setspace} % For spacing
+\doublespacing
+
+\newcommand{\tsp}{\textsuperscript} %Superscript
+\newcommand{\tsb}{\textsubscript} %Superscript
+\newcommand{\ie}{\emph{i.e. }}
+\newcommand{\eg}{\emph{e.g. }}
+
+% ---- Title and author, provisory
+\title{Neural Engineering: Lecture Notes}
+\author{Simone Ranaldi}
