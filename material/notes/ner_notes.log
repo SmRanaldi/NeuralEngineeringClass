@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.11) (preloaded format=pdflatex 2022.2.7)  29 MAR 2022 14:51
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.11) (preloaded format=pdflatex 2022.2.7)  29 MAR 2022 15:43
 entering extended mode
 **"c:/Users/smran/OneDrive - Universita degli Studi Roma Tre/Simone/teaching/courses_rm3/masters/Neural_Engineering/Website/NeuralEngineeringClass/material/notes/ner_notes.tex"
 ("c:/Users/smran/OneDrive - Universita degli Studi Roma Tre/Simone/teaching/courses_rm3/masters/Neural_Engineering/Website/NeuralEngineeringClass/material/notes/ner_notes.tex"
@@ -428,6 +428,30 @@ Package: fancyhdr 2019/01/31 v3.10 Extensive control of page headers and footers
 \f@nch@O@erf=\skip80
 \f@nch@O@olf=\skip81
 \f@nch@O@orf=\skip82
+) ("C:\Program Files\MiKTeX\tex/latex/listings\listings.sty"
+\lst@mode=\count395
+\lst@gtempboxa=\box50
+\lst@token=\toks21
+\lst@length=\count396
+\lst@currlwidth=\dimen163
+\lst@column=\count397
+\lst@pos=\count398
+\lst@lostspace=\dimen164
+\lst@width=\dimen165
+\lst@newlines=\count399
+\lst@lineno=\count400
+\lst@maxwidth=\dimen166
+ ("C:\Program Files\MiKTeX\tex/latex/listings\lstmisc.sty"
+File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
+\c@lstnumber=\count401
+\lst@skipnumbers=\count402
+\lst@framebox=\box51
+) ("C:\Program Files\MiKTeX\tex/latex/listings\listings.cfg"
+File: listings.cfg 2020/03/24 1.8d listings configuration
+))
+Package: listings 2020/03/24 1.8d (Carsten Heinz)
+ ("C:\Program Files\MiKTeX\tex/latex/listings\lstlang1.sty"
+File: lstlang1.sty 2020/03/24 1.8d listings language file
 ) (C:\Users\smran\AppData\Roaming\MiKTeX\tex/latex/setspace\setspace.sty
 Package: setspace 2011/12/19 v6.7a set line spacing
 ))
@@ -469,17 +493,17 @@ Package biblatex Info: Reference section=0 on input line 5.
 Package biblatex Info: Reference segment=0 on input line 5.
  ("C:\Program Files\MiKTeX\tex/context/base/mkii\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count395
-\scratchdimen=\dimen163
-\scratchbox=\box50
-\nofMPsegments=\count396
-\nofMParguments=\count397
-\everyMPshowfont=\toks21
-\MPscratchCnt=\count398
-\MPscratchDim=\dimen164
-\MPnumerator=\count399
-\makeMPintoPDFobject=\count400
-\everyMPtoPDFconversion=\toks22
+\scratchcounter=\count403
+\scratchdimen=\dimen167
+\scratchbox=\box52
+\nofMPsegments=\count404
+\nofMParguments=\count405
+\everyMPshowfont=\toks22
+\MPscratchCnt=\count406
+\MPscratchDim=\dimen168
+\MPnumerator=\count407
+\makeMPintoPDFobject=\count408
+\everyMPtoPDFconversion=\toks23
 ) ("C:\Program Files\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty"
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
@@ -498,15 +522,15 @@ Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: includehead includefoot twoside 
-* h-part:(L,W,R)=(72.26999pt, 469.75502pt, 72.26999pt)
-* v-part:(T,H,B)=(72.26999pt, 650.43001pt, 72.26999pt)
+* h-part:(L,W,R)=(50.58878pt, 513.11745pt, 50.58878pt)
+* v-part:(T,H,B)=(50.58878pt, 693.79243pt, 50.58878pt)
 * \paperwidth=614.295pt
 * \paperheight=794.96999pt
-* \textwidth=469.75502pt
-* \textheight=588.55621pt
-* \oddsidemargin=0.0pt
-* \evensidemargin=0.0pt
-* \topmargin=0.0pt
+* \textwidth=513.11745pt
+* \textheight=631.91864pt
+* \oddsidemargin=-21.68121pt
+* \evensidemargin=-21.68121pt
+* \topmargin=-21.68121pt
 * \headheight=12.0pt
 * \headsep=19.8738pt
 * \topskip=12.0pt
@@ -525,7 +549,9 @@ Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: listings package is loaded.
 Package caption Info: End \AtBeginDocument code.
+\c@lstlisting=\count409
 ("c:/Users\smran\OneDrive - Universita degli Studi Roma Tre\Simone\teaching\courses_rm3\masters\Neural_Engineering\Website\NeuralEngineeringClass\material\notes\ner_frontpage.tex"
 LaTeX Font Info:    Trying to load font information for U+msa on input line 1.
  ("C:\Program Files\MiKTeX\tex/latex/amsfonts\umsa.fd"
@@ -550,28 +576,36 @@ This may cause the page layout to be inconsistent, however.
 \tf@toc=\write4
 \openout4 = `ner_notes.toc'.
 
- [3] ("c:/Users\smran\OneDrive - Universita degli Studi Roma Tre\Simone\teaching\courses_rm3\masters\Neural_Engineering\Website\NeuralEngineeringClass\material\notes\spike_sorting.tex" [4
+ [3] ("c:/Users\smran\OneDrive - Universita degli Studi Roma Tre\Simone\teaching\courses_rm3\masters\Neural_Engineering\Website\NeuralEngineeringClass\material\notes\spike_detecton.tex" [4
 
 
 ]
 Chapter 1.
-) [5] ("c:/Users\smran\OneDrive - Universita degli Studi Roma Tre\Simone\teaching\courses_rm3\masters\Neural_Engineering\Website\NeuralEngineeringClass\material\notes\ner_notes.aux")
+) ("c:/Users\smran\OneDrive - Universita degli Studi Roma Tre\Simone\teaching\courses_rm3\masters\Neural_Engineering\Website\NeuralEngineeringClass\material\notes\spike_sorting.tex" [5] [6
+
+]
+Chapter 2.
+) [7]
+
+LaTeX Warning: Empty bibliography on input line 12.
+
+("c:/Users\smran\OneDrive - Universita degli Studi Roma Tre\Simone\teaching\courses_rm3\masters\Neural_Engineering\Website\NeuralEngineeringClass\material\notes\ner_notes.aux")
 Package logreq Info: Writing requests to 'ner_notes.run.xml'.
 \openout1 = `ner_notes.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 13731 strings out of 479799
- 244786 string characters out of 2879560
- 957477 words of memory out of 3000000
- 30565 multiletter control sequences out of 15000+200000
- 539845 words of font info for 47 fonts, out of 3000000 for 9000
+ 14901 strings out of 479799
+ 260705 string characters out of 2879560
+ 981630 words of memory out of 3000000
+ 31715 multiletter control sequences out of 15000+200000
+ 540182 words of font info for 48 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 70i,11n,75p,903b,1675s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on "c:/Users\smran\OneDrive - Universita degli Studi Roma Tre\Simone\teaching\courses_rm3\masters\Neural_Engineering\Website\NeuralEngineeringClass\material\notes\ner_notes.pdf" (5 pages, 59174 bytes).
+ 70i,11n,75p,903b,1677s stack positions out of 5000i,500n,10000p,200000b,50000s
+ <C:\Users\smran\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on "c:/Users\smran\OneDrive - Universita degli Studi Roma Tre\Simone\teaching\courses_rm3\masters\Neural_Engineering\Website\NeuralEngineeringClass\material\notes\ner_notes.pdf" (7 pages, 68414 bytes).
 PDF statistics:
- 38 PDF objects out of 1000 (max. 8388607)
+ 51 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,2 +1,11 @@
 \chapter{Spike Sorting}
-Blablabla
+\label{ch:sorting}
+After the \emph{spike detection} phase described in Chapter \ref{ch:detection}, the detected spikes must be \textbf{sorted}. In the \emph{spike sorting} procedure, each detected spike is assigned to a particular source (\ie to a particular neuron). 
+
+In general, while it is possible for a human experimenter to assign spikes to different neurons by a visual inspection of the waveform, the automatization of such a process in a signal processing environments requires two main steps:
+\begin{itemize}
+    \item \textbf{Feature selection} in which some quantitative parameters (\ie features) are extracted from each segmented spike
+    \item \textbf{Clustering} or \textbf{classification} in which the different \emph{feature vectors} are arranged into groups, each of which is representative of a particular neuron
+\end{itemize}
+
+While the first step is essentially limited to the calculation of an arbitrary number of synthetic indicators, the grouping phase requires a number of preliminary analyses that are needed to tune the parameters of the algorithms, the most trivial one being the definition of the number of clusters to be extracted.

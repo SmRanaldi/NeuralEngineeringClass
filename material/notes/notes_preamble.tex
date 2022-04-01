@@ -11,10 +11,8 @@
 \usepackage{csquotes}
 \usepackage{amssymb}
 \usepackage{pdfpages}
-%\usepackage{bibentry}
-%\usepackage{hyperref}
 
-\usepackage[includeheadfoot, margin=1in]{geometry} % For margins, probably buggy
+\usepackage[includeheadfoot, margin=0.7in]{geometry} % For margins, probably buggy
 \usepackage[width = 0.75\textwidth, font = small]{caption} % For caption margins
 
 % New style here ------
@@ -25,12 +23,36 @@
 \fancyhead[R]{\scshape\thepage}
 
 
+% Format code cells ------
+
+\usepackage{listings} % For code formatting
+
+\lstset{frame=leftline,
+  language=Python,
+  aboveskip=0.2in,
+  belowskip=0.2in,
+  showstringspaces=false,
+  columns=flexible,
+  basicstyle={\small\ttfamily},
+  numbers=none,
+  numberstyle=\tiny\color{gray},
+  keywordstyle=\color{blue},
+  commentstyle=\color{dkgreen},
+  stringstyle=\color{mauve},
+  breaklines=true,
+  breakatwhitespace=true,
+  xleftmargin = 0.1\textwidth,
+  linewidth=0.8\textwidth,
+  numbers=left,
+  tabsize=3
+} % use in a lstlisting environment
+
 % -------------------
 
 \setcounter{tocdepth}{1} % Set table of content level
 
 \usepackage{setspace} % For spacing
-\doublespacing
+\onehalfspacing
 
 \newcommand{\tsp}{\textsuperscript} %Superscript
 \newcommand{\tsb}{\textsubscript} %Superscript
