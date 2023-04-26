@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="css/styles.css">
+
+    <title>Neural Engineering 2022 @ Roma Tre</title>
+</head>
+<body>
+   
+    <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark bg-opacity-65">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#general">Neural Engineering 2022</a>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#program">Schedule</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#signals">Signals</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#exams">Exams</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#references">References</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#links">Links</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="title-container">
+        <h2 id="general">General information</h2>
+    </div>
+
+    <div class="content-container">
+        <ul class="list-group list-group-flush">
+            <li class="list-group-item">
+                <h4>Lecture hours</h4>
+                All the lectures will be given in room N20
+                <ul class="content-list">
+                    <li>Thursday 8.00 - 10.00</li>
+                    <li>Friday 10.00 - 12.00</li>
+                </ul>
+            </li>
+            <li class="list-group-item">
+                <h4>Consultation hours</h4>
+                Please write an email to <a class="notebook-link" href="mailto:simone.ranaldi@uniroma3.it">simone.ranaldi@uniroma3.it</a>
+                <ul class="content-list">
+                    <li>Thursday 14:30 - 16.00</li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+
+    <hr>
+
+    <div class="title-container">
+        <h2 id="program">Lecture program</h2>
+    </div>
+    <div class="content-container">
+        <div class="list-group list-group-flush">
+
+            <li class="list-group-item">
+                <span class="lecture-code">L00</span> 04/03/2022 - 
+                <span class="lecture-title">Introduction to Neural Engineering</span>
+            </li>
+
+            <li class="list-group-item">
+                <span class="lecture-code">L01</span> 08/03/2022 - 
+                <span class="lecture-title">Introduction to passive models</span>
+            </li>
+
+            <li class="list-group-item">
+                <span class="lecture-code">L02</span> 08/03/2022 - 
+                <span class="lecture-title">Passive models of excitable cells</span>
+                <ul class="content-list">
+                    <li>Book 1 - Chapter 1.1</li>
+                    <li>Book 2 - Chapter 3 - Sections 3-4</li>
+                </ul>
+            </li>
+
+            <li class="list-group-item">
+                <span class="lecture-code">L03</span> 11/03/2022 - 
+                <span class="lecture-title">Hodgkin-Huxley model</span>
+                <ul class="content-list">
+                    <li>Book 1 - Chapter 2.1 - Sections 1-4</li>
+                    <li>Book 2 - Chapter 3 - Sections 3-4</li>
+                    <li>Mark Nelson and John Rinzel. <a class='notebook-link' href="http://genesis-sim.org/GENESIS/Ultimate_CDROM/Tutorials/iBoGpdf/chapt4.pdf">The Hodgkin-Huxley Model</a></li>
+                </ul>
+            </li>
+
+            <li class="list-group-item">
+                <span class="lecture-code">E01</span> 15/03/2022 - 
+                <span class="lecture-title">Python basics</span> 
+                <ul class="content-list">
+                    <li>
+                        <a class="notebook-link" href="material/notebooks/D01.ipynb">Demo</a> 
+                    </li>
+                    <li>
+                        <a class="notebook-link" href="material/notebooks/E01.ipynb">Exercises</a>
+                        (<a class="notebook-link" href="material/notebooks/E01_solution.ipynb">Solution</a>)
+                    </li>
+                </ul>
+            </li>
+
+            <li class="list-group-item">
+                <span class="lecture-code">L04</span> 18/03/2022 - 
+                <span class="lecture-title">Models for spiking activity</span>
+                <ul class="content-list">
+                    <li>Book 1 - Chapter 2.4 - Sections 1-3</li>
+                    <li>Book 2 - Chapter 7 - Sections 2.1-3.1</li>
+                </ul>
+            </li>
+
+            <li class="list-group-item">
+                <span class="lecture-code">E02</span> 22/03/2022 - 
+                <span class="lecture-title">Basic Python libraries</span> 
+                <ul class="content-list">
+                    <li>
+                        <a class="notebook-link" href="material/notebooks/D02.ipynb">Demo</a> 
+                    </li>
+                    <li>
+                        <a class="notebook-link" href="material/notebooks/E02.ipynb">Exercises</a>
+                        (<a class="notebook-link" href="material/notebooks/E02_solution.ipynb">Solution</a>)
+                    </li>
+                </ul>
+            </li>
+
+            <li class="list-group-item">
+                <span class="lecture-code">L05</span> 28/03/2022 - 
+                <span class="lecture-title">Spike detection</span>
+                <ul class="content-list">
+                    <li>Obeid I, Wolf PD. <a class='notebook-link' href="https://ieeexplore.ieee.org/document/1300781">Evaluation of spike-detection algorithms for brain-machine interface application</a></li>
+                </ul>
+            </li>
+
+            <li class="list-group-item">
+                <span class="lecture-code">E03</span> 29/03/2022 - 
+                <span class="lecture-title">Spike detection</span> 
+                <ul class="content-list">
+                    <li>
+                        <a class="notebook-link" href="material/notebooks/D03.ipynb">Demo</a> (<a href="material/signals/D03_signal1.csv">Signal</a>) 
+                    </li>
+                    <li>
+                        <a class="notebook-link" href="material/notebooks/E03.ipynb">Exercises</a>
+                        (<a href="material/signals/E03_signal1.csv">Signal 1</a>, 
+                        <a href="material/signals/E03_signal2.csv">Signal 2</a>, 
+                        <a href="material/signals/E03_index1_0.csv">Indexes 1</a>)
+                        (<a class="notebook-link" href="material/notebooks/E03_solution.ipynb">Solution</a>)
+                    </li>
+                </ul>
+            </li>
+
+            <li class="list-group-item">
+                <span class="lecture-code">E04</span> 05/04/2022 - 
+                <span class="lecture-title">Template matching</span> 
+                <ul class="content-list">
+                    <li>
+                        <a class="notebook-link" href="material/notebooks/D04.ipynb">Demo</a> (<a href="material/signals/D04_signal.csv">Signal</a>) 
+                    </li>
+                    <li>
+                        <a class="notebook-link" href="material/notebooks/E04.ipynb">Exercises</a>
+                        (<a href="material/signals/E04_signal.csv">Signal</a>, 
+                        <a href="material/signals/E04_templates.csv">Templates</a>)
+                        (<a class="notebook-link" href="material/notebooks/E04_solution.ipynb">Solution</a>)
+                    </li>
+                </ul>
+            </li>
+
+            <li class="list-group-item">
+                <span class="lecture-code">L07</span> 08/04/2022 - 
+                <span class="lecture-title">Feature Extraction</span>
+                <ul class="content-list">
+                    <li>Caro Martin, CR et al. <a class='notebook-link' href="https://www.nature.com/articles/s41598-018-35491-4">Spike sorting based on shape, phase, and distribution features, and K-TOPS clustering with validity and error indices</a></li>
+                </ul>
+            </li>
+
+            <li class="list-group-item">
+                <span class="lecture-code">E05</span> 26/04/2022 - 
+                <span class="lecture-title">Feature extraction</span> 
+                <ul class="content-list">
+                    <li>
+                        <a class="notebook-link" href="material/notebooks/D05.ipynb">Demo</a> (<a href="material/signals/D05_signal.csv">Signal</a>) (<a href="material/notebooks/D05_v2.ipynb">Updated version</a>) 
+                    </li>
+                    <li>
+                        <a class="notebook-link" href="material/notebooks/E05.ipynb">Exercises</a>
+                        (<a href="material/signals/E05_signal.csv">Signal</a>) 
+                        (<a class="notebook-link" href="material/notebooks/E05_solution.ipynb">Solution</a>)
+                    </li>
+                </ul>
+            </li>
+            
+            <li class="list-group-item">
+                <span class="lecture-code">L08</span> 29/04/2022 - 
+                <span class="lecture-title">Clustering</span>
+                <ul class="content-list">
+                    <li>Han, J. et al. <a class='notebook-link' href="https://www.comp.nus.edu.sg/~atung/publication/gkdbk01.pdf">Spatial Clustering Methods in Data Mining: A Survey</a></li>
+                </ul>
+            </li>
+
+            <li class="list-group-item">
+                <span class="lecture-code">E06</span> 04/05/2022 - 
+                <span class="lecture-title">Clustering</span> 
+                <ul class="content-list">
+                    <li>
+                        <a class="notebook-link" href="material/notebooks/D06.ipynb">Demo</a> 
+                    </li>
+                    <li>
+                        <a class="notebook-link" href="material/notebooks/E06.ipynb">Exercises</a>
+                        (<a class="notebook-link" href="material/notebooks/E06_solution.ipynb">Solution</a>)
+                    </li>
+                </ul>
+            </li>
+            
+            <li class="list-group-item">
+                <span class="lecture-code">L09</span> 06/05/2022 - 
+                <span class="lecture-title">Clustering metrics</span>
+                <ul class="content-list">
+                    <li><a class='notebook-link' href="https://www.stat.cmu.edu/~cshalizi/350/lectures/08/lecture-08.pdf">Clustering distance metrics</a></li>
+                    <li><a class='notebook-link' href="https://www.math-stat.unibe.ch/e237483/e237655/e243381/e281679/files281690/Chap11_ger.pdf">Clustering distance metrics and clustering ordering</a></li>
+                    <li><a class='notebook-link' href="https://towardsdatascience.com/silhouette-coefficient-validating-clustering-techniques-e976bb81d10c#:~:text=Silhouette%20Coefficient%20or%20silhouette%20score%20is%20a%20metric%20used%20to,each%20other%20and%20clearly%20distinguished">Practical example of silhouette score</a></li>
+                </ul>
+            </li>
+
+            <li class="list-group-item">
+                <span class="lecture-code">E07</span> 10/05/2022 - 
+                <span class="lecture-title">Spike detection and sorting: final exercise</span> 
+                <ul class="content-list">
+                    <li>
+                        <a class="notebook-link" href="material/notebooks/D07.ipynb">Demo</a> 
+                    </li>
+                    <li>
+                        <a class="notebook-link" href="material/notebooks/E07.ipynb">Exercises</a>
+                        (<a class="notebook-link" href="material/notebooks/E07_solution.ipynb">Solution</a>)
+                    </li>
+                </ul>
+            </li>
+            
+            <li class="list-group-item">
+                <span class="lecture-code">L10</span> 13/05/2022 - 
+                <span class="lecture-title">Motor Control</span>
+                <ul class="content-list">
+                    <li>Book 1 - Chapter 1.6 - Sections 1-2.2, 2.8, 3.3</li>
+                </ul>
+            </li>
+
+            <li class="list-group-item">
+                <span class="lecture-code">L11</span> 17/05/2022 - 
+                <span class="lecture-title">Modular Motor Control</span>
+                <ul class="content-list">
+                    <li>Neptune, RR et al. <a class='notebook-link' href="https://www.sciencedirect.com/science/article/pii/S0021929009001389">Modular control of human walking: A simulation study</a></li>
+                    <li>Mussa-Ivaldi, FA <a class='notebook-link' href="http://www.inf.ed.ac.uk/teaching/courses/mlsc/HW2papers/MussaIvaldi.pdf">Modular features of motor control and learning</a></li>
+                    <li>Ivanenko, Y et al. <a class='notebook-link' href="https://www.jneurosci.org/content/27/41/11149">Modular control of limb movements during human locomotion</a></li>
+                </ul>
+            </li>
+
+            <li class="list-group-item">
+                <span class="lecture-code">L12</span> 20/05/2022 - 
+                <span class="lecture-title">Matrix factorization for muscle synergies</span>
+                <ul class="content-list">
+                    <li>Lee, DD and Seung, HS <a class='notebook-link' href="https://proceedings.neurips.cc/paper/2000/file/f9d1152547c0bde01830b7e8bd60024c-Paper.pdf">Algorithms for Non-negative Matrix Factorization</a></li>
+                </ul>
+            </li>
+
+            <li class="list-group-item">
+                <span class="lecture-code">E08</span> 24/05/2022 - 
+                <span class="lecture-title">Muscle synergies, part I</span> 
+                <ul class="content-list">
+                    <li>
+                        <a class="notebook-link" href="material/notebooks/D08.ipynb">Demo</a> (<a href="material/signals/D08_signal.csv">Signal</a>, <a href="material/signals/D08_angle.csv">Angle</a>) 
+                    </li>
+                    <li>
+                        <a class="notebook-link" href="material/notebooks/E08.ipynb">Exercises</a> (<a href="material/signals/E08_signal.csv">Signal</a>, <a href="material/signals/E08_angle.csv">Angle</a>) 
+                        (<a class="notebook-link" href="material/notebooks/E08_solution.ipynb">Solution</a>)
+                    </li>
+                </ul>
+            </li>
+
+            <li class="list-group-item">
+                <span class="lecture-code">L06</span> 01/04/2022 - 
+                <span class="lecture-title">Spike detection</span>
+                <ul class="content-list">
+                    <li>Lewicki, M. <a class='notebook-link' href="http://www.stat.columbia.edu/~liam/teaching/neurostat-fall15/papers/EM/Lewicki-Network-98_1.pdf">A review of methods for spike sorting: the detection and classification of neural action potentials</a></li>
+                </ul>
+            </li>
+
+            <li class="list-group-item">
+                <span class="lecture-code">E09</span> 27/05/2022 - 
+                <span class="lecture-title">Muscle synergies, part II</span> 
+                <ul class="content-list">
+                    <li>
+                        <a class="notebook-link" href="material/notebooks/D09.ipynb">Demo</a> (<a href="material/signals/D09_W.csv">W</a>)
+                    </li>
+                    <li>
+                        <a class="notebook-link" href="material/notebooks/E09.ipynb">Exercises</a>
+                        (<a class="notebook-link" href="material/notebooks/E09_solution.ipynb">Solution</a>)
+                    </li>
+                </ul>
+            </li>
+            
+        </ul>
+    </div>
+
+    <hr>
+
+    <div class="title-container">
+        <h2 id="signals">Signals</h2>
+    </div>
+    <div class="content-container">
+        <ul class="list-group list-group-flush">
+            <li class="list-group-item">
+                <span class="lecture-title">Neural signal processing</span> 
+                <ul class="content-list">
+                    <li>
+                        <a class="notebook-link" href="material/signals/nsp1.csv">Signal 1</a>
+                    </li>
+                    <li>
+                        <a class="notebook-link" href="material/signals/nsp2.csv">Signal 2</a>
+                    </li>
+                    <li>
+                        <a class="notebook-link" href="material/signals/nsp3.csv">Signal 3</a>
+                    </li>
+                    <li>
+                        <a class="notebook-link" href="material/signals/nsp4.csv">Signal 4</a>
+                    </li>
+                    <li>
+                        <a class="notebook-link" href="material/signals/nsp5.csv">Signal 5</a>
+                    </li>
+                    <li>
+                        <a class="notebook-link" href="material/signals/nsp6.csv">Signal 6</a>
+                    </li>
+                    <li>
+                        <a class="notebook-link" href="material/signals/nsp7.csv">Signal 7</a>
+                    </li>
+                    <li>
+                        <a class="notebook-link" href="material/signals/nsp8.csv">Signal 8</a>
+                    </li>
+                    <li>
+                        <a class="notebook-link" href="material/signals/nsp9.csv">Signal 9</a>
+                    </li>
+                    <li>
+                        <a class="notebook-link" href="material/signals/nsp10.csv">Signal 10</a>
+                    </li>
+                </ul>
+            </li>
+            <li class="list-group-item">
+                <span class="lecture-title">Muscle synergies</span> 
+                <ul class="content-list">
+                    <li>
+                        <a class="notebook-link" href="material/signals/pedal1_signal.csv">Pedalling 1</a>
+                        (<a class="notebook-link" href="material/signals/pedal1_angle.csv">Angle</a>)
+                    </li>
+                    <li>
+                        <a class="notebook-link" href="material/signals/pedal2_signal.csv">Pedalling 2</a>
+                        (<a class="notebook-link" href="material/signals/pedal2_angle.csv">Angle</a>)
+                    </li>
+                    <li>
+                        <a class="notebook-link" href="material/signals/pedal3_signal.csv">Pedalling 3</a>
+                        (<a class="notebook-link" href="material/signals/pedal3_angle.csv">Angle</a>)
+                    </li>
+                    <li>
+                        <a class="notebook-link" href="material/signals/reaching1_signal.csv">Reaching 1</a>
+                        (<a class="notebook-link" href="material/signals/reaching1_events.csv">Events</a>)
+                    </li>
+                    <li>
+                        <a class="notebook-link" href="material/signals/reaching2_signal.csv">Reaching 2</a>
+                        (<a class="notebook-link" href="material/signals/reaching2_events.csv">Events</a>)
+                    </li>
+                    <li>
+                        <a class="notebook-link" href="material/signals/reaching3_signal.csv">Reaching 3</a>
+                        (<a class="notebook-link" href="material/signals/reaching3_events.csv">Events</a>)
+                    </li>
+                    <li>
+                        <a class="notebook-link" href="material/signals/walking1_signal.csv">Walking 1</a>
+                        (<a class="notebook-link" href="material/signals/walking1_events.csv">Events</a>)
+                    </li>
+                    <li>
+                        <a class="notebook-link" href="material/signals/walking2_signal.csv">Walking 2</a>
+                        (<a class="notebook-link" href="material/signals/walking2_events.csv">Events</a>)
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+    
+    <hr>
+
+    <div class="title-container">
+        <h2 id="exams">Exams</h2>
+    </div>
+    <div class="content-container">
+        <ul class="list-group list-group-flush">
+            <li class="list-group-item">
+                <span class="lecture-title">Sample exercises</span> 
+                <ul class="content-list">
+                    <li>
+                        <a class="notebook-link" href="material/exams/exam_samples.pdf">List of sample exercises</a>
+                    </li>
+                </ul>
+            </li>
+            <li class="list-group-item">
+                <span class="lecture-title">Previous exams</span> 
+                <ul class="content-list">
+                    <li>
+                        <a class="notebook-link" href="material/exams/06072022.pdf">07/06/2022</a> (Simulation)
+                        (<a class="notebook-link", href="material/exams/06072022_solution.ipynb">Solution</a>)
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+
+    <hr>
+
+    <div class="title-container">
+        <h2 id="references">References</h2>
+    </div>
+    <div class="content-container">
+        <ul class="list-group list-group-flush">
+            <li class="list-group-item">
+                <span class="lecture-code">Book 1</span> - Horch, Dhillon. 
+                <span class="book-title">Neuroprosthetics, theory and practice</span>. 2004, World Scientific
+            </li>
+            <li class="list-group-item">
+                <span class="lecture-code">Book 2</span> - Bin He
+                <span class="book-title">Neural engineering</span>. 2007 Springer Science & Business Media
+            </li>
+            <li class="list-group-item">
+                <span class="lecture-code">Book 3</span> - Aurelien Geron
+                <span class="book-title">Hands on Machine Learning</span>. 2019 O'Reilly
+            </li>
+        </ul>
+    </div>
+
+    <hr>
+
+    <div class="title-container">
+        <h2 id="links">Additional links</h2>
+    </div>
+    <div class="content-container">
+        <ul class="list-group list-group-flush">
+            <li class="list-group-item">
+                <h4>Useful Python code examples</h4>
+                <ul>
+                    <li>
+                        A gallery of samples Jupyter Notebooks from the official Jupyter Github repository (<a href="https://github.com/jupyter/jupyter/wiki">github link</a>)
+                    </li>
+                    <li>
+                        Python Data Science Handbook through notebooks (<a href="https://github.com/jakevdp/PythonDataScienceHandbook">github link</a>)
+                    </li>
+                    <li>
+                        Python for Signal Processing (<a href="https://github.com/unpingco/Python-for-Signal-Processing">github link</a>)
+                    </li>
+                    <li>
+                        <a href="https://github.com/brian-team/brian2">Brian</a>: a Python simulator for spiking neural networks.
+                    </li>
+                </ul>
+            </li>
+            <li class="list-group-item">
+                <h4>Guides to markdown</h4>
+                <h5>The markup language used in the text cells in Python notebooks</h5>
+                <ul>
+                    <li>
+                        <a href="https://www.markdownguide.org/">The Markdown open source guide</a>
+                    </li>
+                    <li>
+                        <a href="https://www.markdownguide.org/cheat-sheet/">Markdown cheatsheet</a>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+
+    <hr>
+
+    <!-- <footer class="bg-dark">
+        <div class="container">
+            <div class="footer-content justify-content-between float-right">
+                &copy; 2022 <a class="footer-link" href="http://biolab.uniroma3.it/ranaldi.php"> Simone Ranaldi </a>
+            </div>
+        </div>
+    </footer> -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+</html>
